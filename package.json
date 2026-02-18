@@ -1,0 +1,9 @@
+{
+  "name": "ai-assignment",
+  "version": "1.0.0",
+  "description": "Invoice Generator - Angular + Express",
+  "scripts": {
+    "build": "cd frontend && npm install && npx ng build --output-path ../backend/public && cd ../backend && npm install",
+    "start": "node backend/server.js"
+  }
+}
